@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "image": "/Titan.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "image": "/titan_chubby.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "image": "/titan_hide_nose.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "image": "/titan_jedi.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "image": "/titan_kitten.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "image": "/titan_post_turkey.jpg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "image": "/titan_tucked_in.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "image": "/titan_windowsill.jpg",
+        "clicked": false
+    }
+
+]

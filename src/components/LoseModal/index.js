@@ -9,7 +9,7 @@ function LoseModal(props) {
             <h5 class="modal-title">U haz lost!</h5>
           </div>
           <div class="modal-body">
-          <img src="/titan_displeased" alt="displeased cat"></img>
+          <img src="/titan_displeased.jpg" alt="displeased cat"></img>
             <p>Titan is shocked by your lack of skill! Try again!</p>
           </div>
         </div>

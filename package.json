@@ -1,5 +1,6 @@
 {
   "name": "image_match",
+  "homepage": "https://katievogel.github.io/ClickyGame/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +17,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://katievogel.github.io/ClickyGame/",
   "eslintConfig": {
     "extends": "react-app"
   },

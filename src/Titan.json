@@ -38,6 +38,25 @@
         "id": 8,
         "image": "/titan_windowsill.jpg",
         "clicked": false
+    },
+    {
+        "id": 9,
+        "image": "/titan_bigeyes.jpg",
+        "clicked": false
+    },
+    {
+        "id": 10,
+        "image": "/titan_kitten_towel_lap.jpg",
+        "clicked": false
+    },
+    {
+        "id": 11,
+        "image": "/titan_posed_chair.jpg",
+        "clicked": false
+    },
+    {
+        "id": 12,
+        "image": "/titan_proper.jpg",
+        "clicked": false
     }
-
 ]

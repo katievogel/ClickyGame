@@ -5,24 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffdcb2;
+  background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+
+}
+h1 {
+  font-family: 'Rammetto One', cursive;
 }
 
+h2 {
+  font-family: 'Passion One', cursive;
+  margin: 40px auto auto auto;
+}
+
+li {
+  font-family: 'Orbitron', sans-serif;
+  margin: auto;
+  list-style: none;
+  color: greenyellow;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 img {
-  width: 100px;
+  width: 115px;
   height: auto;
   padding: 5px;
+
 }
 
 .tiles {
   width: 150px;
   height: 150px;
-  background-color: gray;
-  margin: 5px;
-  display: inline-block;
+  background-color: #00abfa;
+  background-image: url("https://www.transparenttextures.com/patterns/starring.png");
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px!important;
+  border-style: outset 2px!important;
+  box-shadow: 2px 5px 10px rgb(171, 170, 170);
 }
 
+main {
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.jumbotron {
+  background-color: #00abfa;
+  background-image: url("https://www.transparenttextures.com/patterns/starring.png");
+  width: 100vw;
+  height: 25vh
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}

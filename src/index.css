@@ -5,10 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffdcb2;
-  background-image: url("https://www.transparenttextures.com/patterns/purty-wood.png");
-
+  background-image: url("https://i.imgur.com/Y054RVK.jpg");
+  background-size: cover;
+  background-position: center;
 }
+
 h1 {
   font-family: 'Rammetto One', cursive;
 }

@@ -40,15 +40,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <div className="jumbotron">
-            <h1><a href="/">Clicky Game!</a></h1>
+            <h1>Clicky Game!</h1>
             <h2>Click on an image to earn points, but don't click on any more than once!</h2>
           </div>
           <ul>
             <li>Score: {this.state.score} | Top Score: {this.state.highScore}</li>
+            <li><a href="/">Reset Scores and Try Again</a></li>
           </ul>
         </header>
         <main>
-          {/* <button onClick={() => this.setState({ counter: this.state.counter + 1 })}></button> */}
+         {/* The commented code below may help you test Wins by displaying the JSON on the page, though it moveds the tiles, or you can see them log in the console watch the names of each picture as you click*/}
           {/* <pre>{JSON.stringify(this.state, null, 2)}</pre> */}
           {this.state.titan.map((titan, i) => (
             <Card
@@ -66,7 +67,7 @@ class App extends Component {
                   if (nextScore === 12) {
                     console.log("U haz won!");
                     this.setState({
-                      highScore: this.state.score,
+                      highScore: nextScore,
                       win_showing: true
                     });
 
@@ -94,11 +95,19 @@ class App extends Component {
             />
           ))}
         </main>
-        <WinModal win_showing={this.state.win_showing} />
-        <LoseModal lose_showing={this.state.lose_showing} />
+        <WinModal win_showing={this.state.win_showing}
+          close={this.close} />
+        <LoseModal lose_showing={this.state.lose_showing}
+          close={this.close} />
       </div>
 
     );
+  }
+
+  close = () => {
+    console.log('close');
+    this.setState({ lose_showing: false });
+    this.setState({ win_showing: false })
   }
 }
 

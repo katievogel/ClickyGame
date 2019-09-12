@@ -1,7 +1,6 @@
 import React from "react";
 
 
-
 function LoseModal(props) {
   var show;
   if (props.lose_showing === true) {
@@ -15,7 +14,8 @@ function LoseModal(props) {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">U haz lost!</h5>
-            <button type="button" className="close" data-dismiss="modal" aria-label="Close">CLOSE</button>
+            <button type="button" className="close" data-dismiss="modal" 
+            onClick={props.close} aria-label="Close">CLOSE</button>
           </div>
           <div className="modal-body">
             <img src="/titan_displeased.jpg" alt="displeased cat"></img>

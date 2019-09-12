@@ -71,13 +71,26 @@ a:link {
 }
 
 a:hover {
-  color: white;
+  color: rgb(142, 248, 243);
+  font-style: oblique;
 }
 
 a:active {
-  color: white;
+  color:  rgb(142, 248, 243);
 }
 
 a:visited {
-  color: white;
+  color:  rgb(142, 248, 243);
+}
+
+a {
+  font-size: medium;
+
+}
+
+.modal-header, .modal-body {
+  background-color: #00abfa;
+  background-image: url("https://www.transparenttextures.com/patterns/starring.png");
+  font-family: 'Passion One', cursive;
+  color: whitesmoke;
 }

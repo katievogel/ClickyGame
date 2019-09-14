@@ -18,7 +18,7 @@ function LoseModal(props) {
             onClick={props.close} aria-label="Close">CLOSE</button>
           </div>
           <div className="modal-body">
-            <img src="/titan_displeased.jpg" alt="displeased cat"></img>
+            <img src={process.env.PUBLIC_URL + "/titan_displeased.jpg"} alt="displeased cat"></img>
             <p>Titan is disappointed by your lack of skill! Try again!</p>
           </div>
         </div>

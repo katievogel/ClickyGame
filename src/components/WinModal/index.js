@@ -17,7 +17,7 @@ function WinModal(props) {
             <button type="button" className="close" data-dismiss="modal" onClick={props.close}aria-label="Close">CLOSE</button>
           </div>
           <div className="modal-body">
-            <img src="/titan_content.jpg" alt="content cat"></img>
+            <img src={process.env.PUBLIC_URL + "/titan_content.jpg"} alt="content cat"></img>
             <p>Titan is pleased, though generally disinterested in most things. See if you can win again!</p>
           </div>
         </div>
